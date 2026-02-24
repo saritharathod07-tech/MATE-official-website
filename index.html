@@ -17,18 +17,21 @@
 }
 
 body {
+  body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
-  color: white;
   height: 100vh;
+  color: white;
 
   background:
     linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)),
-    url('mate-bg.jpg') no-repeat center center;
+    url('mate-bg.jpg');
 
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 /* Dark overlay */
@@ -176,6 +179,7 @@ a:hover{
 </body>
 
 </html>
+
 
 
 
